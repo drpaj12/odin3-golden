@@ -9,9 +9,12 @@ and is what Odin III's output is compared against with `tools/netlist-compare` a
 representative sample, about 50 designs and 41 MB. The full BLIF set (2.7 GB+) is too large for
 GitHub and is archived elsewhere:
 
-- **Full set:** `golden-full-<vtr12>.tar.gz` plus `SHA256SUMS`, hosted at **TBD (Peter)**.
-  Unpack it over a clone of this repo. Every BLIF's sha256 must match the `blif_sha256` in its
-  `.prov`, and `SHA256SUMS` covers every file in the archive.
+- **Full set:** `golden-full-<vtr12>.zip` at <https://drpeterjamieson.com/PROJECTS/ODIN_III/>.
+  For VTR `3c9a4d23`, that is
+  [`golden-full-3c9a4d23b27d.zip`](https://drpeterjamieson.com/PROJECTS/ODIN_III/golden-full-3c9a4d23b27d.zip),
+  with its sha256 in a `.zip.sha256` file next to it. Unzip it over a clone of this repo.
+  `SHA256SUMS` inside covers every file, `ARCHIVE-INFO` names the VTR and odin3-golden commits,
+  and every BLIF's sha256 must match the `blif_sha256` in its `.prov`.
 - **On the dev machine:** `~/odin3-ws/golden` holds the full set. Git ignores the non-sample BLIFs.
 
 ## Layout
