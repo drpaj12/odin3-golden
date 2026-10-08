@@ -1,0 +1,11 @@
+k6_frac_N10_frac_chain_mem32K_40nm/inout_failure		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/keywords/inout/inout_failure/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.08 seconds, overall memory peak 24.41 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+2. Executing Verilog-2005 frontend: inout_failure.v
+Parsing SystemVerilog input from `inout_failure.v' to AST representation.
+Warning: Yosys has only limited support for tri-state logic at the moment. (inout_failure.v:8)
+Warning: reg '\in_out1' is assigned in a continuous assignment at inout_failure.v:8.9-8.35.
+ERROR: BUF_NODE

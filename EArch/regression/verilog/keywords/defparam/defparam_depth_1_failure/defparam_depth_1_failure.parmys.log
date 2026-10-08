@@ -1,0 +1,9 @@
+EArch/defparam_depth_1_failure		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/defparam/defparam_depth_1_failure/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.06 seconds, overall memory peak 21.13 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+2. Executing Verilog-2005 frontend: defparam_depth_1_failure.v
+Parsing SystemVerilog input from `defparam_depth_1_failure.v' to AST representation.
+ERROR: Module `assg' referenced in module `simple_op' in cell `m2' does not have a parameter named 'width'.

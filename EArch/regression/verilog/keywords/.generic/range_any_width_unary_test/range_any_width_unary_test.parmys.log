@@ -1,0 +1,7 @@
+EArch/range_any_width_unary_test		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/.generic/range_any_width_unary_test/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.04 seconds, overall memory peak 20.50 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+range_any_width_unary_test.v:9: ERROR: Unimplemented compiler directive or undefined macro `WIDTH.

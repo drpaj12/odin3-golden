@@ -1,0 +1,7 @@
+EArch/recursive_function		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  139
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/automatic/recursive_function/parmys/temp/parmys.out
+failed: Executable yosys failed (took 3.44 seconds, overall memory peak 597.93 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+(none found)

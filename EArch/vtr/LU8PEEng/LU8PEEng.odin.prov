@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=vtr_flow/benchmarks/verilog/LU8PEEng.v
+source_sha256=7fb80cb9cad7099c33b74ec4ec6d978a1bdc4a3f610c0612b04c7668f7ff15fa
+tool=odin
+status=ok
+blif_sha256=0d2c07f68abdb9e03605d0dd86ad33616c5cd55a7297dacb06571add0b25ff4f
+date=2026-10-08T18:48:57Z

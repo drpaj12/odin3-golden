@@ -1,0 +1,7 @@
+k6_frac_N10_frac_chain_mem32K_40nm/nrnw		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/common/nrnw/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.11 seconds, overall memory peak 25.51 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/parmys/parmys-plugin/core/block_memory.cc:1040: create_nrmw_dual_port_ram: Assertion num_wr_ports > 1 failed

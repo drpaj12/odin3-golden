@@ -1,0 +1,9 @@
+k6_frac_N10_frac_chain_mem32K_40nm/range_any_width_unary_test		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/keywords/.generic/range_any_width_unary_test/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.45 seconds, overall memory peak 6.57 MiB consumed by odin run)
+--- error lines in odin.out ---
+/home/jamiespa/odin3-ws/work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/keywords/.generic/range_any_width_unary_test/odin/temp/range_any_width_unary_test.v:12:1: warning[PARSE_TO_AST]:  error in parsing: (syntax error, unexpected ';')
+error[PARSE_TO_AST]:  Parser found (1) errors in your syntax, exiting
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/utils/odin_error.cpp:55: void verify_delayed_error(odin_error): Fatal error

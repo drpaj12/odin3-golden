@@ -1,0 +1,7 @@
+k6_frac_N10_frac_chain_mem32K_40nm/basic_expression_in_function_port		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/syntax/basic_expression_in_function_port/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.06 seconds, overall memory peak 6.57 MiB consumed by odin run)
+--- error lines in odin.out ---
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/ast/parse_making_ast.cpp:1884: graphVizOutputAst_traverse_node: Assertion node->types.identifier failed

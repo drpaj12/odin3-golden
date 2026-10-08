@@ -1,0 +1,8 @@
+EArch/shiftx		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/common/shiftx/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.13 seconds, overall memory peak 6.56 MiB consumed by odin run)
+--- error lines in odin.out ---
+/home/jamiespa/odin3-ws/work/oracle/EArch/regression/verilog/common/shiftx/odin/temp/shiftx.v:18:7: error[AST]:  Part-selects can only contain constant expressions
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/ast/ast_elaborate.cpp:1653: ast_node_t* finalize_ast(ast_node_t*, ast_node_t*, sc_hierarchy*, bool, bool): Fatal error

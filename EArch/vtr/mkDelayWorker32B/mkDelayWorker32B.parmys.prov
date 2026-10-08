@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=vtr_flow/benchmarks/verilog/mkDelayWorker32B.v
+source_sha256=096360fbaa3e3c978df211c66a9f9fd8db296433e90e43aa5403fe0eb6911b61
+tool=parmys
+status=ok
+blif_sha256=b16028d13d9e21a45f9997c23c37109c79049cd3db7a6aca08d0c964cdcce755
+date=2026-10-08T18:48:39Z

@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=vtr_flow/benchmarks/verilog/LU32PEEng.v
+source_sha256=be5409b5ea4503671ce0816ede36dc6d362859e330314d4bc8df1b5d7abaa237
+tool=parmys
+status=ok
+blif_sha256=367e1c55ea71d2efad74d385ab6dc5b1a397d3c2a82ac9fa5106753ab35a605a
+date=2026-10-08T18:49:41Z

@@ -1,0 +1,9 @@
+EArch/output_port_failure		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/output/output_port_failure/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.10 seconds, overall memory peak 6.51 MiB consumed by odin run)
+--- error lines in odin.out ---
+Adding file output_port_failure.v to parse list
+/home/jamiespa/odin3-ws/work/oracle/EArch/regression/verilog/keywords/output/output_port_failure/odin/temp/output_port_failure.v:5:1: error[AST]:  Module already has output with this name b
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/ast/parse_making_ast.cpp:468: ast_node_t* markAndProcessPortWith(ids, ids, ids, ast_node_t*, operation_list): Fatal error

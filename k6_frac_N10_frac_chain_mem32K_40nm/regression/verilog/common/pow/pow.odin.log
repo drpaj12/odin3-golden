@@ -1,0 +1,8 @@
+k6_frac_N10_frac_chain_mem32K_40nm/pow		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/common/pow/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.07 seconds, overall memory peak 6.48 MiB consumed by odin run)
+--- error lines in odin.out ---
+/home/jamiespa/odin3-ws/work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/common/pow/odin/temp/pow.v:21:1: error[AST]:  Odin only supports constant expressions as exponents
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/ast/ast_util.cpp:983: void check_binary_operation(ast_node_t**): Fatal error

@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=odin_ii/regression_test/benchmark/verilog/full/stereovision3.v
+source_sha256=23bef2cf8546288e4b13ee999f0406295f632173ad1d1700743e7fd338eda3c5
+tool=parmys
+status=ok
+blif_sha256=9616e93e73124a1a0f3457407e1197385c6df6b296cf255c4d98be67e1258836
+date=2026-10-08T18:51:22Z

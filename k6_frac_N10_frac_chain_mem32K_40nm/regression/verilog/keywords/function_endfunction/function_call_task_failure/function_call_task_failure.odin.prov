@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k6_frac_N10_frac_chain_mem32K_40nm.xml
+arch_sha256=39dbe3da435e61ca01f33806edc6c3a33f4c96164e0393dd144da2e84405940f
+source=odin_ii/regression_test/benchmark/verilog/keywords/function_endfunction/function_call_task_failure.v
+source_sha256=c60b4ffd61cbd02c9a03e77c788683929df434dc59b5e228ee5424d0d59e7294
+tool=odin
+mem_cap_mb=6144
+status=failed
+date=2026-10-08T19:32:26Z

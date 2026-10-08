@@ -1,0 +1,7 @@
+EArch/defparam_string		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/defparam/defparam_string/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.06 seconds, overall memory peak 20.77 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+defparam_string.v:0: ERROR: Can't find object for defparam `simple_op.msg`!

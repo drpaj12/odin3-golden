@@ -1,0 +1,7 @@
+EArch/instantiated_by_name_function_invalid		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/syntax/instantiated_by_name_function_invalid/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.22 seconds, overall memory peak 6.63 MiB consumed by odin run)
+--- error lines in odin.out ---
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/ast/parse_making_ast.cpp:1884: graphVizOutputAst_traverse_node: Assertion node->types.identifier failed

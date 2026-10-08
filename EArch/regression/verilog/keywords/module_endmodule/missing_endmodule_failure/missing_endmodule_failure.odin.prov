@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=odin_ii/regression_test/benchmark/verilog/keywords/module_endmodule/missing_endmodule_failure.v
+source_sha256=a25bca97b836445f9c773a6c52fba6d2c27815be39992fa5813dae165aca86ce
+tool=odin
+mem_cap_mb=6144
+status=failed
+date=2026-10-08T19:29:15Z

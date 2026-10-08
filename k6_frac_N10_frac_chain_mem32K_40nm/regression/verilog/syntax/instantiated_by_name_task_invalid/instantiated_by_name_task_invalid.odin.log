@@ -1,0 +1,8 @@
+k6_frac_N10_frac_chain_mem32K_40nm/instantiated_by_name_task_invalid		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/syntax/instantiated_by_name_task_invalid/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.05 seconds, overall memory peak 6.57 MiB consumed by odin run)
+--- error lines in odin.out ---
+/home/jamiespa/odin3-ws/work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/syntax/instantiated_by_name_task_invalid/odin/temp/instantiated_by_name_task_invalid.v:21:1: error[NETLIST]:  Module entry y1 does not exist
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/netlist/netlist_create_from_ast.cpp:5455: void reorder_connections_from_name(ast_node_t*, ast_node_t*, ids): Fatal error

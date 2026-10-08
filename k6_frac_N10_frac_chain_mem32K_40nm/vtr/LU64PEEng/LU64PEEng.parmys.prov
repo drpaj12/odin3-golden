@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k6_frac_N10_frac_chain_mem32K_40nm.xml
+arch_sha256=39dbe3da435e61ca01f33806edc6c3a33f4c96164e0393dd144da2e84405940f
+source=vtr_flow/benchmarks/verilog/LU64PEEng.v
+source_sha256=37559e689b2eccc301a33deb81d7c053ff2dc6023eaa3029d1a9d6e731e2fb2e
+tool=parmys
+status=ok
+blif_sha256=3b1e693df7e9d1b36d71e140d6247d1d71fc555212c0c4b0d4eb059aec9adc96
+date=2026-10-08T18:51:47Z

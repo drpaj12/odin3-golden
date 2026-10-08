@@ -1,0 +1,8 @@
+EArch/multiple_topmodules		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/module_endmodule/multiple_topmodules/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.12 seconds, overall memory peak 6.50 MiB consumed by odin run)
+--- error lines in odin.out ---
+error[AST]:  Found multiple top level modules
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/ast/ast_elaborate.cpp:162: ast_node_t* find_top_module(ast_t*): Fatal error

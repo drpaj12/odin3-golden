@@ -1,0 +1,9 @@
+k6_frac_N10_frac_chain_mem32K_40nm/repeated_module_failure		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/keywords/module_endmodule/repeated_module_failure/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.12 seconds, overall memory peak 6.48 MiB consumed by odin run)
+--- error lines in odin.out ---
+Adding file repeated_module_failure.v to parse list
+/home/jamiespa/odin3-ws/work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/keywords/module_endmodule/repeated_module_failure/odin/temp/repeated_module_failure.v:28:1: error[AST]:  module names with the same name -> simple_op
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/ast/parse_making_ast.cpp:1542: ast_node_t* newModule(char*, ast_node_t*, ast_node_t*, ast_node_t*, loc_t): Fatal error

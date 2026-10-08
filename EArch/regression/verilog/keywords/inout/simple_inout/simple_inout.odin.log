@@ -1,0 +1,8 @@
+EArch/simple_inout		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/inout/simple_inout/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.22 seconds, overall memory peak 6.57 MiB consumed by odin run)
+--- error lines in odin.out ---
+/home/jamiespa/odin3-ws/work/oracle/EArch/regression/verilog/keywords/inout/simple_inout/odin/temp/simple_inout.v:3:7: error[AST]:  Odin does not handle inouts (in_out1)
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/ast/parse_making_ast.cpp:554: ast_node_t* markAndProcessPortWith(ids, ids, ids, ast_node_t*, operation_list): Fatal error

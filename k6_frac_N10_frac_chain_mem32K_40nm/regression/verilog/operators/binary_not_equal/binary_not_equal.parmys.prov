@@ -1,0 +1,11 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k6_frac_N10_frac_chain_mem32K_40nm.xml
+arch_sha256=39dbe3da435e61ca01f33806edc6c3a33f4c96164e0393dd144da2e84405940f
+source=odin_ii/regression_test/benchmark/verilog/operators/binary_not_equal.v
+source_sha256=cef5eff6a7cb589ab8d4f8fdd76b0c442c9715c712d0b77a210a968131e87d9d
+tool=parmys
+mem_cap_mb=6144
+status=ok
+blif_sha256=44ae41c0ed6d93fa88f4da360f870d5814a1dd0eff7dd536ae0fa5e888f46d46
+date=2026-10-08T19:36:13Z

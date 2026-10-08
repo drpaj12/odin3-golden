@@ -1,0 +1,7 @@
+EArch/fir_scu_rtl_restructured_for_cmm_exp		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/syntax/fir_scu_rtl_restructured_for_cmm_exp/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.05 seconds, overall memory peak 21.00 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+fir_scu_rtl_restructured_for_cmm_exp.v:94: ERROR: syntax error, unexpected TOK_ID

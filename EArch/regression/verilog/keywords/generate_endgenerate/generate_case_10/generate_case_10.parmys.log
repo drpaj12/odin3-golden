@@ -1,0 +1,7 @@
+EArch/generate_case_10		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/generate_endgenerate/generate_case_10/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.06 seconds, overall memory peak 21.15 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+ERROR: Can't open include file `generate_case.vh'!

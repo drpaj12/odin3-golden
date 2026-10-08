@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=doc/src/quickstart/blink.v
+source_sha256=513249172433c71addb25532d5a9e824b0b84898189b04e46caaf4fac09ab133
+tool=odin
+status=ok
+blif_sha256=3a465bc9ecc53e9c291c1d5ce75389fc7cbb83ef2a660d9c647c814c698036ef
+date=2026-10-08T18:48:50Z

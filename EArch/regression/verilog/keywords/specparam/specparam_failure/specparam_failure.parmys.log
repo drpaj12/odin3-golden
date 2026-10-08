@@ -1,0 +1,8 @@
+EArch/specparam_failure		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/specparam/specparam_failure/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.04 seconds, overall memory peak 19.88 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+2. Executing Verilog-2005 frontend: specparam_failure.v
+specparam_failure.v:1: ERROR: syntax error, unexpected TOK_SPECPARAM

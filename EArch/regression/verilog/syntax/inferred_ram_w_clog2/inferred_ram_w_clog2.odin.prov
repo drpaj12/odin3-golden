@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=odin_ii/regression_test/benchmark/verilog/syntax/inferred_ram_w_clog2.v
+source_sha256=184879de7fa8d6d1d2e833d377f25897e2557757d5233371c1895a9c00b91590
+tool=odin
+status=ok
+blif_sha256=37cd8f22170d7a53a9b6b01de964e5038d147b52d4eef4e542c8306af4f7f450
+date=2026-10-08T19:08:38Z

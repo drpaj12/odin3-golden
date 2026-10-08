@@ -1,0 +1,7 @@
+EArch/generate_if_else_1		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/generate_endgenerate/generate_if_else_1/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.11 seconds, overall memory peak 21.17 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+ERROR: Can't open include file `generate_if_else.vh'!

@@ -1,0 +1,7 @@
+k6_frac_N10_frac_chain_mem32K_40nm/instantiated_by_name_task_valid		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/syntax/instantiated_by_name_task_valid/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.03 seconds, overall memory peak 20.71 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+instantiated_by_name_task_valid.v:21: ERROR: syntax error, unexpected '.'

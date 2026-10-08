@@ -1,0 +1,7 @@
+EArch/double_assign_inout		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/inout/double_assign_inout/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.09 seconds, overall memory peak 20.99 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+ERROR: Assertion failed: selection is not empty: %

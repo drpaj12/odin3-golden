@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=vtr_flow/benchmarks/verilog/raygentop.v
+source_sha256=e8bce25e93e4a940eff50f7f529ac2d21461e7263bb06c74da17a87989326ea3
+tool=odin
+status=ok
+blif_sha256=34d9f917dd3fdfb05ce5f36339b437b3dd406e342b3df5ed9b69e89772c20eb9
+date=2026-10-08T18:48:49Z

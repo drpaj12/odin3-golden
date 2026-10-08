@@ -1,0 +1,7 @@
+k6_frac_N10_frac_chain_mem32K_40nm/preprocessor_define		Error: Executable yosys failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/build/bin/yosys -c synthesis.tcl
+	returncode  :  1
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/k6_frac_N10_frac_chain_mem32K_40nm/regression/verilog/syntax/preprocessor_define/parmys/temp/parmys.out
+failed: Executable yosys failed (took 0.03 seconds, overall memory peak 21.02 MiB consumed by parmys run)
+--- error lines in parmys.out ---
+preprocessor_define.v:29: ERROR: Unimplemented compiler directive or undefined macro `ADDITION_num.

@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k6_frac_N10_frac_chain_mem32K_40nm.xml
+arch_sha256=39dbe3da435e61ca01f33806edc6c3a33f4c96164e0393dd144da2e84405940f
+source=odin_ii/regression_test/benchmark/verilog/common/mux.v
+source_sha256=b775146bee191ce834b368013f100c4d8b9d78b668588af40bc43ab066e4db0c
+tool=odin
+status=ok
+blif_sha256=0747d90ae834440dc7ef7d7fbd4ef8f31dd60ff183484ecf5fa013761e6bf6ce
+date=2026-10-08T19:09:14Z

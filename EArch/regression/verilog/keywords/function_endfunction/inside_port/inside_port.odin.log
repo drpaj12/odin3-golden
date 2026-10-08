@@ -1,0 +1,9 @@
+EArch/inside_port		Error: Executable odin_ii failed
+	full command:  /usr/bin/env time -v /home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/odin_ii --adder_type default --mults_ratio -1.0 --adders_ratio -1.0 -U0 -c odin_config.xml
+	returncode  :  134
+	log file    :  /home/jamiespa/odin3-ws/odin3/../work/oracle/EArch/regression/verilog/keywords/function_endfunction/inside_port/odin/temp/odin.out
+failed: Executable odin_ii failed (took 0.04 seconds, overall memory peak 6.52 MiB consumed by odin run)
+--- error lines in odin.out ---
+/home/jamiespa/odin3-ws/work/oracle/EArch/regression/verilog/keywords/function_endfunction/inside_port/odin/temp/inside_port.v:9:2: warning[PARSE_TO_AST]:  error in parsing: (syntax error, unexpected ')', expecting ';' or ',')
+error[PARSE_TO_AST]:  Parser found (1) errors in your syntax, exiting
+/home/jamiespa/odin3-ws/external/vtr-verilog-to-routing/odin_ii/src/utils/odin_error.cpp:55: void verify_delayed_error(odin_error): Fatal error

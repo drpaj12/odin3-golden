@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/EArch.xml
+arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
+source=odin_ii/regression_test/benchmark/verilog/FIR/ex1EP16_fir_6.v
+source_sha256=661c5877049aed573f152f78802d089a79d32679b1102ed10f3f531431ab8b50
+tool=parmys
+status=ok
+blif_sha256=0c8e6642f8d476691c4a3855db7f3ae43d0320640f3a98a5ed2d3fe1d0df4d80
+date=2026-10-08T18:50:50Z
