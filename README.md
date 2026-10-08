@@ -12,7 +12,8 @@ GitHub and is archived elsewhere:
 - **Full set:** `golden-full-<vtr12>.zip` at <https://drpeterjamieson.com/PROJECTS/ODIN_III/>.
   For VTR `3c9a4d23`, that is
   [`golden-full-3c9a4d23b27d.zip`](https://drpeterjamieson.com/PROJECTS/ODIN_III/golden-full-3c9a4d23b27d.zip),
-  sha256 `4c11b0377af5d9c27df792b85010033b0de303e925aa1c0a01006449987e9540`, 263,617,061 bytes.
+  sha256 `4c11b0377af5d9c27df792b85010033b0de303e925aa1c0a01006449987e9540`, 263,617,061 bytes
+  (also in `golden-full-3c9a4d23b27d.zip.sha256` beside it; this README is the trusted copy).
   Unzip it over a clone of this repo.
   `SHA256SUMS` inside covers every file, `ARCHIVE-INFO` names the VTR and odin3-golden commits,
   and every BLIF's sha256 must match the `blif_sha256` in its `.prov`.
