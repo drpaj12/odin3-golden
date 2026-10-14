@@ -4,7 +4,10 @@ arch=vtr_flow/arch/timing/EArch.xml
 arch_sha256=096931c368d37b5224ea38ef4aff8cb3c1abf19068c57c022acb1b1e331f38cd
 source=odin_ii/regression_test/benchmark/verilog/syntax/include-syntax/module_a.v
 source_sha256=978372044232ccb56de161a05840ee1ef9f3841be8e7d7498226a114d5361cd1
+include_dirs=odin_ii/regression_test/benchmark/verilog/syntax/include-syntax
+defines=BITS=8
 tool=parmys
 mem_cap_mb=6144
-status=failed
-date=2026-10-08T19:30:59Z
+status=ok
+blif_sha256=f605dc59824cae7c6b54c661cabb00b3548210c8e13da58cd9ceb92a15887f15
+date=2026-10-14T12:13:15Z
