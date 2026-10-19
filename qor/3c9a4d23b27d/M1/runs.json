@@ -1,0 +1,2443 @@
+{
+ "gate": {
+  "pass": false,
+  "violations": [
+   "gate: INCOMPLETE: no O leg in the table"
+  ]
+ },
+ "geomeans": [
+  {
+   "geomean": 1.0190438187820117,
+   "metric": "luts",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.0013334044038913,
+   "metric": "ffs",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.0,
+   "metric": "adders",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.0,
+   "metric": "mults",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.0,
+   "metric": "ram_slices",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.0488412802460283,
+   "metric": "depth",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 0.9764246800815728,
+   "metric": "num_clb",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.0,
+   "metric": "num_memories",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 0.999539096770127,
+   "metric": "num_mult",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.0028059557185005,
+   "metric": "min_chan_width",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 0.9825397595025299,
+   "metric": "critical_path_delay_ns",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.063407496077712,
+   "metric": "crit_path_routed_wirelength",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 0.38641175683113926,
+   "metric": "frontend_wall_s",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 0.7489790744358962,
+   "metric": "frontend_peak_rss_mib",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 1.128663075569818,
+   "metric": "vpr_time_s",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": 0.984408516584995,
+   "metric": "max_vpr_mem_mib",
+   "n": 19,
+   "of": 19,
+   "pair": "P'/P",
+   "set": "GEOMEAN_GATE"
+  },
+  {
+   "geomean": null,
+   "metric": "luts",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "ffs",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "adders",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "mults",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "ram_slices",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "depth",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "num_clb",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "num_memories",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "num_mult",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "min_chan_width",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "critical_path_delay_ns",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "crit_path_routed_wirelength",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "frontend_wall_s",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "frontend_peak_rss_mib",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "vpr_time_s",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  },
+  {
+   "geomean": null,
+   "metric": "max_vpr_mem_mib",
+   "n": 0,
+   "of": 2,
+   "pair": "P'/P",
+   "set": "GEOMEAN_EXTRA"
+  }
+ ],
+ "header": {
+  "abc_sha12": "0d0d27670d8c",
+  "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+  "build12": "425c4c3f2bbc",
+  "date_utc": "2026-10-19T05:32:02Z",
+  "host": "13th Gen Intel(R) Core(TM) i7-13700, 23.5 GiB",
+  "label": "M1",
+  "legs": {
+   "P": "6baf6f3cfaf9",
+   "Pprime": "a7d7637a6a5c"
+  },
+  "odin3_commit12": "828c3f16a455",
+  "vtr12": "3c9a4d23b27d"
+ },
+ "runs": [
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 36,
+    "frontend_wall_s": 0.28,
+    "max_vpr_mem_mib": 71,
+    "vpr_time_s": 1.19,
+    "vpr_total_runtime_s": 1.0
+   },
+   "design": "ch_intrinsics",
+   "elapsed_s": 2.6,
+   "error": "",
+   "gating": true,
+   "key": "ee6a0cc1c08adfb6a5309ce72aab6d9fa019abbae9129f216b06c633fe1aa019",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 0,
+    "blif_sha256": "5d7de3899090bcb20e02d1e3d1daf65d34b6739a34c3b562d3791618dfc4b860",
+    "depth": 3,
+    "ffs": 82,
+    "luts": 97,
+    "mults": 0,
+    "ram_slices": 8
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 12,
+    "device_width": 12,
+    "num_clb": 68,
+    "num_memories": 1,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 1093,
+    "critical_path_delay_ns": 1.93414,
+    "fmax_mhz": 517.0256548129918,
+    "min_chan_width": 40,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:07:40Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 40,
+    "frontend_wall_s": 0.06,
+    "max_vpr_mem_mib": 70,
+    "vpr_time_s": 0.9500000000000001,
+    "vpr_total_runtime_s": 0.8
+   },
+   "design": "ch_intrinsics",
+   "elapsed_s": 1.7,
+   "error": "",
+   "gating": true,
+   "key": "bfe429006d634ad6c4161234183c4cec94559ecdc8286085546d92e23be2609f",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": "blif",
+    "adders": 0,
+    "blif_sha256": "cd65293575b7ea30ae5fa52eeffdd1f91d625fad40f13ab5fc2b9aacc28f08dc",
+    "depth": 3,
+    "ffs": 82,
+    "luts": 97,
+    "mults": 0,
+    "ram_slices": 8
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 12,
+    "device_width": 12,
+    "num_clb": 69,
+    "num_memories": 1,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 1096,
+    "critical_path_delay_ns": 1.93303,
+    "fmax_mhz": 517.3225454338525,
+    "min_chan_width": 36,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:33:43Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 36,
+    "frontend_wall_s": 0.35,
+    "max_vpr_mem_mib": 67,
+    "vpr_time_s": 0.52,
+    "vpr_total_runtime_s": 0.39
+   },
+   "design": "stereovision3",
+   "elapsed_s": 1.6,
+   "error": "",
+   "gating": true,
+   "key": "d6c180b6c1fd8d6a9c5e56bd3b61b00597be0153d10fc38132b523ef35d5fb1c",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 4,
+    "abc_exchange": null,
+    "adders": 28,
+    "blif_sha256": "82cd2f7cd64255e2cb18c3f583bd02607c7c0c9bc136c1ade106b0cd1d2f28f4",
+    "depth": 2,
+    "ffs": 117,
+    "luts": 124,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 7,
+    "device_width": 7,
+    "num_clb": 15,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 382,
+    "critical_path_delay_ns": 2.43998,
+    "fmax_mhz": 409.83942491331896,
+    "min_chan_width": 26,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:07:42Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 40,
+    "frontend_wall_s": 0.15,
+    "max_vpr_mem_mib": 69,
+    "vpr_time_s": 0.76,
+    "vpr_total_runtime_s": 0.62
+   },
+   "design": "stereovision3",
+   "elapsed_s": 1.9,
+   "error": "",
+   "gating": true,
+   "key": "e4d1a118e386fe296cc424c695e793f219652cc9e7a01805b6275b491a807a12",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 4,
+    "abc_exchange": "blif",
+    "adders": 28,
+    "blif_sha256": "471a19b0479446703da3f35a3dafaf51f35f495e274a4d43ee38b14f96b43351",
+    "depth": 4,
+    "ffs": 120,
+    "luts": 165,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 7,
+    "device_width": 7,
+    "num_clb": 16,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 1078,
+    "critical_path_delay_ns": 2.59514,
+    "fmax_mhz": 385.3356658985643,
+    "min_chan_width": 32,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:33:45Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 36,
+    "frontend_wall_s": 0.23,
+    "max_vpr_mem_mib": 76,
+    "vpr_time_s": 3.2600000000000002,
+    "vpr_total_runtime_s": 2.93
+   },
+   "design": "diffeq2",
+   "elapsed_s": 4.6,
+   "error": "",
+   "gating": true,
+   "key": "303f4a1810c47a5f9ef8974a8701cfd798441c039aeb6945e2d34c16a67ce778",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 4,
+    "abc_exchange": null,
+    "adders": 132,
+    "blif_sha256": "06a131233e355cbad2008165edb00d2c0aa9406bd3598e26fc61aa5ddef0d110",
+    "depth": 4,
+    "ffs": 96,
+    "luts": 198,
+    "mults": 5,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 16,
+    "device_width": 16,
+    "num_clb": 23,
+    "num_memories": 0,
+    "num_mult": 5
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 6368,
+    "critical_path_delay_ns": 12.4295,
+    "fmax_mhz": 80.4537592018987,
+    "min_chan_width": 68,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:07:44Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 40,
+    "frontend_wall_s": 0.07,
+    "max_vpr_mem_mib": 74,
+    "vpr_time_s": 2.86,
+    "vpr_total_runtime_s": 2.51
+   },
+   "design": "diffeq2",
+   "elapsed_s": 3.7,
+   "error": "",
+   "gating": true,
+   "key": "1c386080152cd7d3dc3b15bb4fb936e208351f13c84f9f6cf233a3bf2123423c",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": "blif",
+    "adders": 132,
+    "blif_sha256": "7dd6c86631733cf18c1483ad18f1e857200a41fe7843abc22a1e728783804c12",
+    "depth": 5,
+    "ffs": 96,
+    "luts": 195,
+    "mults": 5,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 16,
+    "device_width": 16,
+    "num_clb": 23,
+    "num_memories": 0,
+    "num_mult": 5
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 7251,
+    "critical_path_delay_ns": 12.9744,
+    "fmax_mhz": 77.07485509927241,
+    "min_chan_width": 50,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:33:47Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 38,
+    "frontend_wall_s": 0.21,
+    "max_vpr_mem_mib": 77,
+    "vpr_time_s": 2.49,
+    "vpr_total_runtime_s": 2.2
+   },
+   "design": "diffeq1",
+   "elapsed_s": 3.6,
+   "error": "",
+   "gating": true,
+   "key": "716981b8f8d078807acdcb29a66820ddea3fee3a5afa5d51feb5ef83c58ad410",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 132,
+    "blif_sha256": "62db4f4c7a001396692fd59e902f04edaa8ef09921d4c0d1e0ce5c687dc11a0b",
+    "depth": 5,
+    "ffs": 193,
+    "luts": 294,
+    "mults": 5,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 16,
+    "device_width": 16,
+    "num_clb": 35,
+    "num_memories": 0,
+    "num_mult": 5
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 9217,
+    "critical_path_delay_ns": 17.1957,
+    "fmax_mhz": 58.154073402071454,
+    "min_chan_width": 50,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:52:48Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 41,
+    "frontend_wall_s": 0.1,
+    "max_vpr_mem_mib": 77,
+    "vpr_time_s": 3.3200000000000003,
+    "vpr_total_runtime_s": 2.95
+   },
+   "design": "diffeq1",
+   "elapsed_s": 4.8,
+   "error": "",
+   "gating": true,
+   "key": "ccfc08dd99348b6a97fdf2ad65e42268190f407469bbe76ffde4bb86884c9dd8",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": "blif",
+    "adders": 132,
+    "blif_sha256": "8faaf748d4e527f0d2dd9dbb92885496cbf95a09803eee325eaaddd47395daea",
+    "depth": 5,
+    "ffs": 193,
+    "luts": 295,
+    "mults": 5,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 16,
+    "device_width": 16,
+    "num_clb": 31,
+    "num_memories": 0,
+    "num_mult": 5
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 8915,
+    "critical_path_delay_ns": 17.4045,
+    "fmax_mhz": 57.45640495274211,
+    "min_chan_width": 48,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:33:51Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 38,
+    "frontend_wall_s": 0.41,
+    "max_vpr_mem_mib": 94,
+    "vpr_time_s": 3.6999999999999997,
+    "vpr_total_runtime_s": 3.26
+   },
+   "design": "mkPktMerge",
+   "elapsed_s": 4.6,
+   "error": "",
+   "gating": true,
+   "key": "14168c8d0f19b2cbfb4413c68c07da8ecd1738b21f7e87587474abfb68c358c2",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 2,
+    "abc_exchange": null,
+    "adders": 42,
+    "blif_sha256": "c700731100a890d2c30c408e26b10b2d2429b5ef1e5c804cea174c1aa619a176",
+    "depth": 2,
+    "ffs": 18,
+    "luts": 176,
+    "mults": 0,
+    "ram_slices": 459
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 28,
+    "device_width": 28,
+    "num_clb": 34,
+    "num_memories": 15,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 13085,
+    "critical_path_delay_ns": 4.06299,
+    "fmax_mhz": 246.1241597936495,
+    "min_chan_width": 40,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:52:52Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 41,
+    "frontend_wall_s": 0.07,
+    "max_vpr_mem_mib": 92,
+    "vpr_time_s": 4.36,
+    "vpr_total_runtime_s": 3.79
+   },
+   "design": "mkPktMerge",
+   "elapsed_s": 5.7,
+   "error": "",
+   "gating": true,
+   "key": "cb3270ca0d567e9796df9719d07397409c35713811254ff29ef08c407b2e85fe",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 2,
+    "abc_exchange": "blif",
+    "adders": 42,
+    "blif_sha256": "f91fde1096a1e24c2951544cf56b514331d2207fccdec82eb13941a752859157",
+    "depth": 2,
+    "ffs": 18,
+    "luts": 176,
+    "mults": 0,
+    "ram_slices": 459
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 28,
+    "device_width": 28,
+    "num_clb": 21,
+    "num_memories": 15,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 13017,
+    "critical_path_delay_ns": 3.70115,
+    "fmax_mhz": 270.1862934493333,
+    "min_chan_width": 36,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:33:55Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 48,
+    "frontend_wall_s": 2.24,
+    "max_vpr_mem_mib": 101,
+    "vpr_time_s": 5.49,
+    "vpr_total_runtime_s": 4.83
+   },
+   "design": "raygentop",
+   "elapsed_s": 7.6,
+   "error": "",
+   "gating": true,
+   "key": "bb570a23a8e77a07b173160c24bba7443cc83bd7ffa095073fb841e9c6261a4b",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 4,
+    "abc_exchange": null,
+    "adders": 413,
+    "blif_sha256": "cf1a597f32399126ba5b7438e8162beacd18f9928d24b77f150143dcbb134678",
+    "depth": 3,
+    "ffs": 946,
+    "luts": 1046,
+    "mults": 15,
+    "ram_slices": 21
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 19,
+    "device_width": 19,
+    "num_clb": 141,
+    "num_memories": 1,
+    "num_mult": 6
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 20146,
+    "critical_path_delay_ns": 5.19005,
+    "fmax_mhz": 192.67637113322607,
+    "min_chan_width": 58,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:53:01Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 46,
+    "frontend_wall_s": 0.32,
+    "max_vpr_mem_mib": 100,
+    "vpr_time_s": 7.220000000000001,
+    "vpr_total_runtime_s": 6.48
+   },
+   "design": "raygentop",
+   "elapsed_s": 9.2,
+   "error": "",
+   "gating": true,
+   "key": "cad59358e978565c40df58a9314a8ba4820365090ce7a83d285f329761892df8",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": "blif",
+    "adders": 413,
+    "blif_sha256": "cb45bcf693f819cca7598407b9145b361e995dfbacce0e9bf0f1e6aa47b86c35",
+    "depth": 3,
+    "ffs": 946,
+    "luts": 1062,
+    "mults": 15,
+    "ram_slices": 21
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 19,
+    "device_width": 19,
+    "num_clb": 140,
+    "num_memories": 1,
+    "num_mult": 6
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 19728,
+    "critical_path_delay_ns": 5.15944,
+    "fmax_mhz": 193.8194842851162,
+    "min_chan_width": 64,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:34:02Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 51,
+    "frontend_wall_s": 1.24,
+    "max_vpr_mem_mib": 98,
+    "vpr_time_s": 4.0600000000000005,
+    "vpr_total_runtime_s": 3.54
+   },
+   "design": "sha",
+   "elapsed_s": 6.6,
+   "error": "",
+   "gating": true,
+   "key": "ac459b9a785236e9632ddcd813a6a0c9f8e6ebc244da0c3b660646965be2e0ef",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 4,
+    "abc_exchange": null,
+    "adders": 309,
+    "blif_sha256": "1912950466f23246c308fd28003ba12d7e3d03651e078485249179ecad649ce5",
+    "depth": 4,
+    "ffs": 893,
+    "luts": 1212,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 16,
+    "device_width": 16,
+    "num_clb": 131,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 11230,
+    "critical_path_delay_ns": 9.3045,
+    "fmax_mhz": 107.47487774732656,
+    "min_chan_width": 66,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:53:09Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 49,
+    "frontend_wall_s": 0.65,
+    "max_vpr_mem_mib": 96,
+    "vpr_time_s": 5.1499999999999995,
+    "vpr_total_runtime_s": 4.56
+   },
+   "design": "sha",
+   "elapsed_s": 6.9,
+   "error": "",
+   "gating": true,
+   "key": "08c0be47ca176b46af5585c879a144fb2486b90e3ce6f6936faaebfbb32238cd",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 4,
+    "abc_exchange": "blif",
+    "adders": 309,
+    "blif_sha256": "8350f4c94377a5805d32400892a354ef3f1ba07bb7df837a156f3dc7792e7892",
+    "depth": 4,
+    "ffs": 893,
+    "luts": 1209,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 16,
+    "device_width": 16,
+    "num_clb": 137,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 12055,
+    "critical_path_delay_ns": 10.2151,
+    "fmax_mhz": 97.8942937416178,
+    "min_chan_width": 58,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:34:11Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 49,
+    "frontend_wall_s": 3.52,
+    "max_vpr_mem_mib": 79,
+    "vpr_time_s": 1.69,
+    "vpr_total_runtime_s": 1.44
+   },
+   "design": "boundtop",
+   "elapsed_s": 6.6,
+   "error": "",
+   "gating": true,
+   "key": "662444762aa1bf777fc56fcc5ffe7abf6c1a0d889639feb640f71e103c9a6fbd",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 151,
+    "blif_sha256": "9419b11a9d3c567e1d3b4fafe47e45434f3f0d1adfe988f9238b324c06bfefc2",
+    "depth": 3,
+    "ffs": 383,
+    "luts": 540,
+    "mults": 0,
+    "ram_slices": 32
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 15,
+    "device_width": 15,
+    "num_clb": 52,
+    "num_memories": 1,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 5353,
+    "critical_path_delay_ns": 2.73484,
+    "fmax_mhz": 365.6521039622062,
+    "min_chan_width": 38,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:53:16Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 45,
+    "frontend_wall_s": 0.33,
+    "max_vpr_mem_mib": 80,
+    "vpr_time_s": 2.26,
+    "vpr_total_runtime_s": 1.97
+   },
+   "design": "boundtop",
+   "elapsed_s": 4.2,
+   "error": "",
+   "gating": true,
+   "key": "a81d5ccd360b52467aaf80039737c37d1802837e2c73b43f10868087da561af3",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": "blif",
+    "adders": 151,
+    "blif_sha256": "eb95bcc3c6aa10961c0dd4738f5f8c7961e63abd1f6ffeeaff5790b93e2c2b2f",
+    "depth": 3,
+    "ffs": 383,
+    "luts": 539,
+    "mults": 0,
+    "ram_slices": 32
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 15,
+    "device_width": 15,
+    "num_clb": 59,
+    "num_memories": 1,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 4749,
+    "critical_path_delay_ns": 2.49575,
+    "fmax_mhz": 400.68115796854653,
+    "min_chan_width": 46,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:34:18Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 56,
+    "frontend_wall_s": 2.16,
+    "max_vpr_mem_mib": 104,
+    "vpr_time_s": 5.4399999999999995,
+    "vpr_total_runtime_s": 4.89
+   },
+   "design": "mkSMAdapter4B",
+   "elapsed_s": 8.6,
+   "error": "",
+   "gating": true,
+   "key": "2b4bf5ca1d69b2d0b7d4c4b26f755ce2d36a6ee8581a883b2fbb2c0d9793339a",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 344,
+    "blif_sha256": "26ae63c6ec82d9b9635d8c152d9da209d7148d08bc279f8c45955789e12d5f00",
+    "depth": 5,
+    "ffs": 639,
+    "luts": 1073,
+    "mults": 0,
+    "ram_slices": 153
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 20,
+    "device_width": 20,
+    "num_clb": 176,
+    "num_memories": 5,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 15859,
+    "critical_path_delay_ns": 5.46063,
+    "fmax_mhz": 183.12905287485142,
+    "min_chan_width": 46,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:53:23Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 50,
+    "frontend_wall_s": 0.98,
+    "max_vpr_mem_mib": 102,
+    "vpr_time_s": 6.859999999999999,
+    "vpr_total_runtime_s": 6.18
+   },
+   "design": "mkSMAdapter4B",
+   "elapsed_s": 8.9,
+   "error": "",
+   "gating": true,
+   "key": "06212c7f5cf0ac2ed85d1423c7bdcf413341c3f680d5cd1534422ea5597c2155",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": "blif",
+    "adders": 344,
+    "blif_sha256": "01b0c85c9aecd1910f205bb59d8a2a0b445fde5a64f17fb754bc8e6df5aa4a45",
+    "depth": 5,
+    "ffs": 639,
+    "luts": 1155,
+    "mults": 0,
+    "ram_slices": 153
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 20,
+    "device_width": 20,
+    "num_clb": 190,
+    "num_memories": 5,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 16143,
+    "critical_path_delay_ns": 5.86137,
+    "fmax_mhz": 170.60857785807755,
+    "min_chan_width": 56,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:34:22Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 63,
+    "frontend_wall_s": 3.03,
+    "max_vpr_mem_mib": 135,
+    "vpr_time_s": 13.959999999999999,
+    "vpr_total_runtime_s": 12.77
+   },
+   "design": "or1200",
+   "elapsed_s": 17.6,
+   "error": "",
+   "gating": true,
+   "key": "d40b4343364b9e622c2590770f9a58fc081df4c0944dfbcc3086a363b1251157",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 8,
+    "abc_exchange": null,
+    "adders": 496,
+    "blif_sha256": "26dcc6d8b92776aef831293f2de89f6f03bed88b818455c7c710928f4dd30b47",
+    "depth": 8,
+    "ffs": 672,
+    "luts": 2430,
+    "mults": 1,
+    "ram_slices": 64
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 26,
+    "device_width": 26,
+    "num_clb": 265,
+    "num_memories": 2,
+    "num_mult": 1
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 38743,
+    "critical_path_delay_ns": 9.49686,
+    "fmax_mhz": 105.29796164205854,
+    "min_chan_width": 78,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:53:31Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 54,
+    "frontend_wall_s": 2.62,
+    "max_vpr_mem_mib": 138,
+    "vpr_time_s": 20.1,
+    "vpr_total_runtime_s": 18.52
+   },
+   "design": "or1200",
+   "elapsed_s": 22.9,
+   "error": "",
+   "gating": true,
+   "key": "f708c2cb45356631b26ac69c431f708c1accaff66ad1ced33541da3a59b52752",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 8,
+    "abc_exchange": "blif",
+    "adders": 496,
+    "blif_sha256": "54f82191d6f44fadda621a9612650d4e658cf2010f19770a6b9798f3f34aba10",
+    "depth": 8,
+    "ffs": 672,
+    "luts": 2420,
+    "mults": 1,
+    "ram_slices": 64
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 27,
+    "device_width": 27,
+    "num_clb": 274,
+    "num_memories": 2,
+    "num_mult": 1
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 39507,
+    "critical_path_delay_ns": 9.41311,
+    "fmax_mhz": 106.2348150611222,
+    "min_chan_width": 84,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:34:31Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 101,
+    "frontend_wall_s": 4.94,
+    "max_vpr_mem_mib": 272,
+    "vpr_time_s": 18.03,
+    "vpr_total_runtime_s": 15.5
+   },
+   "design": "stereovision0",
+   "elapsed_s": 23.8,
+   "error": "",
+   "gating": true,
+   "key": "6557f5f281c1dcfd9e1fd222938640a3dd79a998ea83670b8b5437ed35074693",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 2659,
+    "blif_sha256": "5c3d4b075a2236639219ccc2cc291410179a8e125d7a19cb6988411b57f375f3",
+    "depth": 5,
+    "ffs": 11433,
+    "luts": 6861,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 33,
+    "device_width": 33,
+    "num_clb": 706,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 53023,
+    "critical_path_delay_ns": 4.51587,
+    "fmax_mhz": 221.4412726672823,
+    "min_chan_width": 46,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:53:50Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 85,
+    "frontend_wall_s": 2.69,
+    "max_vpr_mem_mib": 271,
+    "vpr_time_s": 22.32,
+    "vpr_total_runtime_s": 19.4
+   },
+   "design": "stereovision0",
+   "elapsed_s": 26.9,
+   "error": "",
+   "gating": true,
+   "key": "1eba60b0a807c2108cf81217ee0f38e55142579093f6ac51063e0956fa0b804f",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": "blif",
+    "adders": 2659,
+    "blif_sha256": "f8f236e8e22ef1a01a204c8d851d20101ba92b0577c2b52118958c03663a3872",
+    "depth": 5,
+    "ffs": 11433,
+    "luts": 6860,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 33,
+    "device_width": 33,
+    "num_clb": 708,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 52762,
+    "critical_path_delay_ns": 3.69824,
+    "fmax_mhz": 270.39889244613653,
+    "min_chan_width": 46,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:34:55Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 123,
+    "frontend_wall_s": 5.96,
+    "max_vpr_mem_mib": 345,
+    "vpr_time_s": 33.26,
+    "vpr_total_runtime_s": 29.74
+   },
+   "design": "stereovision1",
+   "elapsed_s": 40.8,
+   "error": "",
+   "gating": true,
+   "key": "564faa115ef48f694d40616e610a0e2b813fcf4e92d66302988f6386f850b0ba",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 2294,
+    "blif_sha256": "890a311cff5c3ded3d7086e900cadb62abc1a1075c72366fd45dbf98778605cc",
+    "depth": 3,
+    "ffs": 10315,
+    "luts": 6355,
+    "mults": 152,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 40,
+    "device_width": 40,
+    "num_clb": 806,
+    "num_memories": 0,
+    "num_mult": 43
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 110454,
+    "critical_path_delay_ns": 5.43847,
+    "fmax_mhz": 183.87524432423092,
+    "min_chan_width": 74,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:54:15Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 90,
+    "frontend_wall_s": 3.8,
+    "max_vpr_mem_mib": 343,
+    "vpr_time_s": 47.059999999999995,
+    "vpr_total_runtime_s": 42.69
+   },
+   "design": "stereovision1",
+   "elapsed_s": 53.3,
+   "error": "",
+   "gating": true,
+   "key": "d6a35a20f40f2d72a28ccac882314b53a8efa28e49f9734d274f5be977902854",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": "blif",
+    "adders": 2294,
+    "blif_sha256": "b09b181b90ecb068ce8a5595e9e233ebafc44e7c2adcee119e251d1a50e01fac",
+    "depth": 3,
+    "ffs": 10315,
+    "luts": 6358,
+    "mults": 152,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 40,
+    "device_width": 40,
+    "num_clb": 807,
+    "num_memories": 0,
+    "num_mult": 44
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 111935,
+    "critical_path_delay_ns": 5.39994,
+    "fmax_mhz": 185.18724282121653,
+    "min_chan_width": 78,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:35:22Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 118,
+    "frontend_wall_s": 7.22,
+    "max_vpr_mem_mib": 310,
+    "vpr_time_s": 21.330000000000002,
+    "vpr_total_runtime_s": 19.89
+   },
+   "design": "mkDelayWorker32B",
+   "elapsed_s": 28.6,
+   "error": "",
+   "gating": true,
+   "key": "1377a282dd334c5cfd6c678a8a09eb90ac5b763e5de85c44f6fa6397c7547f74",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 768,
+    "blif_sha256": "3104e127b2ba4a8702784d33562bcdf32f750ed1ea9ae2304df2e6357e1f2453",
+    "depth": 5,
+    "ffs": 34,
+    "luts": 436,
+    "mults": 0,
+    "ram_slices": 1336
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 50,
+    "device_width": 50,
+    "num_clb": 481,
+    "num_memories": 43,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 18222,
+    "critical_path_delay_ns": 8.7241,
+    "fmax_mhz": 114.62500429843766,
+    "min_chan_width": 40,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:56:18Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 70,
+    "frontend_wall_s": 2.01,
+    "max_vpr_mem_mib": 308,
+    "vpr_time_s": 21.08,
+    "vpr_total_runtime_s": 19.34
+   },
+   "design": "mkDelayWorker32B",
+   "elapsed_s": 23.9,
+   "error": "",
+   "gating": true,
+   "key": "65471579916d413a6c991aadba50d13982694be6ea7d92c39e0c4f4ea00277f7",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": "blif",
+    "adders": 768,
+    "blif_sha256": "ebb5e79fa2082d15b03b4188014f3936b5898f292690fea1ab0dcdd6d0abd658",
+    "depth": 5,
+    "ffs": 34,
+    "luts": 436,
+    "mults": 0,
+    "ram_slices": 1336
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 50,
+    "device_width": 50,
+    "num_clb": 380,
+    "num_memories": 43,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 18789,
+    "critical_path_delay_ns": 7.35664,
+    "fmax_mhz": 135.9316209573936,
+    "min_chan_width": 38,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:36:17Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 196,
+    "frontend_wall_s": 6.3,
+    "max_vpr_mem_mib": 1162,
+    "vpr_time_s": 136.67,
+    "vpr_total_runtime_s": 125.75
+   },
+   "design": "stereovision2",
+   "elapsed_s": 145.0,
+   "error": "",
+   "gating": true,
+   "key": "57f4aeb3de6f96f0a795126719b4801caeb425bb9f7b541baa015a6f624c0770",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 12081,
+    "blif_sha256": "b13cb230a1a5d2b5923954f33e49fe9e9068e19a09fc4e80c071b74d33c2053d",
+    "depth": 3,
+    "ffs": 15585,
+    "luts": 8415,
+    "mults": 468,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 82,
+    "device_width": 82,
+    "num_clb": 1940,
+    "num_memories": 0,
+    "num_mult": 192
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 379193,
+    "critical_path_delay_ns": 13.476,
+    "fmax_mhz": 74.20599584446423,
+    "min_chan_width": 86,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:56:48Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 123,
+    "frontend_wall_s": 1.57,
+    "max_vpr_mem_mib": 1016,
+    "vpr_time_s": 145.58999999999997,
+    "vpr_total_runtime_s": 133.89
+   },
+   "design": "stereovision2",
+   "elapsed_s": 149.0,
+   "error": "",
+   "gating": true,
+   "key": "ec5623d0269cd3a787e4d2f6ad9a1a9df6854658820c6c71515dbc5f58215b66",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": "blif",
+    "adders": 12081,
+    "blif_sha256": "cf0f5f0dd7d483861db4ec48068327f9d70322f345b5bd1bb72a2bb4ffb4f8c9",
+    "depth": 3,
+    "ffs": 15585,
+    "luts": 8413,
+    "mults": 468,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 80,
+    "device_width": 80,
+    "num_clb": 1949,
+    "num_memories": 0,
+    "num_mult": 186
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 377884,
+    "critical_path_delay_ns": 13.4832,
+    "fmax_mhz": 74.16637000118666,
+    "min_chan_width": 80,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:36:41Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 209,
+    "frontend_wall_s": 5.4,
+    "max_vpr_mem_mib": 185,
+    "vpr_time_s": 21.680000000000003,
+    "vpr_total_runtime_s": 19.92
+   },
+   "design": "blob_merge",
+   "elapsed_s": 28.6,
+   "error": "",
+   "gating": true,
+   "key": "9798e31aa950a7984351ac05e3c9cb3e4eb775ccaab5b7e0e46eef043e44e267",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 3516,
+    "blif_sha256": "d912e79fe880f7e4fd9d59a864f1dee803b140994cae65c290d8b78bc87d5e8c",
+    "depth": 5,
+    "ffs": 575,
+    "luts": 3381,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 29,
+    "device_width": 29,
+    "num_clb": 502,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 57997,
+    "critical_path_delay_ns": 14.667,
+    "fmax_mhz": 68.18026863025841,
+    "min_chan_width": 64,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:59:18Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 71,
+    "frontend_wall_s": 1.83,
+    "max_vpr_mem_mib": 181,
+    "vpr_time_s": 24.42,
+    "vpr_total_runtime_s": 22.46
+   },
+   "design": "blob_merge",
+   "elapsed_s": 27.8,
+   "error": "",
+   "gating": true,
+   "key": "4f255cd87e57ea30648860154beb1c6567cab75747e78dd43daa1f986bfce57f",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": "blif",
+    "adders": 3516,
+    "blif_sha256": "7a69f809511834c8892247ad3eb7109d9a600fd12bdc8ab20cb1c5ccebdd3d33",
+    "depth": 5,
+    "ffs": 575,
+    "luts": 3410,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 29,
+    "device_width": 29,
+    "num_clb": 509,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 57996,
+    "critical_path_delay_ns": 15.0538,
+    "fmax_mhz": 66.42841010243261,
+    "min_chan_width": 64,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T03:39:14Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 373,
+    "frontend_wall_s": 47.48,
+    "max_vpr_mem_mib": 758,
+    "vpr_time_s": 124.62,
+    "vpr_total_runtime_s": 115.64
+   },
+   "design": "LU8PEEng",
+   "elapsed_s": 173.0,
+   "error": "",
+   "gating": true,
+   "key": "1432ed4795cc911cb889d017c4241a3daaf75adfbc0899aed09ad84ff37cca17",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 97,
+    "abc_exchange": null,
+    "adders": 4560,
+    "blif_sha256": "32e1746283bbed3b78175b1d5a481230f4149639a96bf6ea988de0f76b3197f4",
+    "depth": 97,
+    "ffs": 6224,
+    "luts": 19591,
+    "mults": 8,
+    "ram_slices": 1409
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 56,
+    "device_width": 56,
+    "num_clb": 2144,
+    "num_memories": 45,
+    "num_mult": 8
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 292889,
+    "critical_path_delay_ns": 74.1784,
+    "fmax_mhz": 13.481013340810803,
+    "min_chan_width": 84,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:59:47Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 174,
+    "frontend_wall_s": 30.66,
+    "max_vpr_mem_mib": 737,
+    "vpr_time_s": 146.19,
+    "vpr_total_runtime_s": 137.23
+   },
+   "design": "LU8PEEng",
+   "elapsed_s": 178.0,
+   "error": "",
+   "gating": true,
+   "key": "dc173669b88a03a7dcefaa7f6250106f898dc4d59c28067c663f2a9bf7c527a8",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 97,
+    "abc_exchange": "blif",
+    "adders": 4560,
+    "blif_sha256": "aded74301ff4dc42d279d9062610c6e5e44ac8853779348ff2a1d27aa2c05dc6",
+    "depth": 97,
+    "ffs": 6224,
+    "luts": 19564,
+    "mults": 8,
+    "ram_slices": 1409
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 56,
+    "device_width": 56,
+    "num_clb": 2150,
+    "num_memories": 45,
+    "num_mult": 8
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 298564,
+    "critical_path_delay_ns": 74.0937,
+    "fmax_mhz": 13.496424122428763,
+    "min_chan_width": 84,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T04:40:33Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 500,
+    "frontend_wall_s": 45.19,
+    "max_vpr_mem_mib": 947,
+    "vpr_time_s": 156.84,
+    "vpr_total_runtime_s": 146.08
+   },
+   "design": "bgm",
+   "elapsed_s": 203.1,
+   "error": "",
+   "gating": true,
+   "key": "c2aeebd1d6064b273b859831916fa61019d62648ec5af93152943915fbb5e806",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 14,
+    "abc_exchange": null,
+    "adders": 2270,
+    "blif_sha256": "31bcbe3759eee05eb1107624fa6e879531edb6913f97584e23576b7471c6b6be",
+    "depth": 14,
+    "ffs": 5105,
+    "luts": 25807,
+    "mults": 11,
+    "ram_slices": 0
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 63,
+    "device_width": 63,
+    "num_clb": 2777,
+    "num_memories": 0,
+    "num_mult": 11
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 360800,
+    "critical_path_delay_ns": 22.1249,
+    "fmax_mhz": 45.197944397488804,
+    "min_chan_width": 84,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T07:02:45Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "fail",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 226,
+    "frontend_wall_s": 33.57,
+    "max_vpr_mem_mib": 931,
+    "vpr_time_s": 135.94,
+    "vpr_total_runtime_s": 125.14
+   },
+   "design": "bgm",
+   "elapsed_s": 170.0,
+   "error": "",
+   "gating": true,
+   "key": "d595c21e304ed530cbb375944f9bba1969b43bfa099c0ed6ec6fd7c02d84140f",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 14,
+    "abc_exchange": "blif",
+    "adders": 2270,
+    "blif_sha256": "ad80397351edefa6a5a66f361460a78a31bee74066c6138bf3a185cca3928430",
+    "depth": 14,
+    "ffs": 5105,
+    "luts": 25663,
+    "mults": 11,
+    "ram_slices": 0
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 63,
+    "device_width": 63,
+    "num_clb": 2754,
+    "num_memories": 0,
+    "num_mult": 11
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 352158,
+    "critical_path_delay_ns": 21.9001,
+    "fmax_mhz": 45.66189195483126,
+    "min_chan_width": 82,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T04:43:34Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 973,
+    "frontend_wall_s": 1568.18,
+    "max_vpr_mem_mib": 2224,
+    "vpr_time_s": 504.98,
+    "vpr_total_runtime_s": 468.72
+   },
+   "design": "mcml",
+   "elapsed_s": 2028.3,
+   "error": "",
+   "gating": true,
+   "key": "9160b187c68d07a988dde40f55541067ca751466a6dce561c690bd853749d57e",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 26,
+    "abc_exchange": null,
+    "adders": 25137,
+    "blif_sha256": "46dd6d1d9f9782e4e83e2b4be003e59377e2765b73d7000ae30df5a9deb1e46b",
+    "depth": 26,
+    "ffs": 51529,
+    "luts": 81215,
+    "mults": 27,
+    "ram_slices": 348
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 98,
+    "device_width": 98,
+    "num_clb": 6773,
+    "num_memories": 159,
+    "num_mult": 27
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 852861,
+    "critical_path_delay_ns": 48.1544,
+    "fmax_mhz": 20.7665343146213,
+    "min_chan_width": 120,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T07:06:14Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 489,
+    "frontend_wall_s": 1249.57,
+    "max_vpr_mem_mib": 2173,
+    "vpr_time_s": 555.53,
+    "vpr_total_runtime_s": 518.55
+   },
+   "design": "mcml",
+   "elapsed_s": 1786.7,
+   "error": "",
+   "gating": true,
+   "key": "b03c9d1ff82858638b43af02c2bc3347a8661810c46e348af4451646f7499f03",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 26,
+    "abc_exchange": "blif",
+    "adders": 25137,
+    "blif_sha256": "42356afb8b3c2683be945b4e1da96f00b7e17e790381c882de935087b96ac508",
+    "depth": 26,
+    "ffs": 51529,
+    "luts": 81396,
+    "mults": 27,
+    "ram_slices": 348
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 98,
+    "device_width": 98,
+    "num_clb": 6880,
+    "num_memories": 159,
+    "num_mult": 27
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 883625,
+    "critical_path_delay_ns": 45.8288,
+    "fmax_mhz": 21.82034004817931,
+    "min_chan_width": 126,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T04:46:28Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 1186,
+    "frontend_wall_s": 446.36,
+    "max_vpr_mem_mib": 2264,
+    "vpr_time_s": 880.45,
+    "vpr_total_runtime_s": 841.21
+   },
+   "design": "LU32PEEng",
+   "elapsed_s": 1315.5,
+   "error": "",
+   "gating": true,
+   "key": "1a8ecea6506e0163047f8a6b8b9f4f78ffe537fbe55cdb23849940500e6a73a7",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 98,
+    "abc_exchange": null,
+    "adders": 13470,
+    "blif_sha256": "9c66eef4ca055c0c2e65f40c2a4c6e9fd6b4200e3fcd75c1209b61f06e05c589",
+    "depth": 98,
+    "ffs": 19668,
+    "luts": 69095,
+    "mults": 32,
+    "ram_slices": 5251
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 102,
+    "device_width": 102,
+    "num_clb": 7483,
+    "num_memories": 168,
+    "num_mult": 32
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 1125747,
+    "critical_path_delay_ns": 73.1572,
+    "fmax_mhz": 13.66919455637996,
+    "min_chan_width": 100,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T07:41:08Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "pass",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 573,
+    "frontend_wall_s": 325.83,
+    "max_vpr_mem_mib": 2242,
+    "vpr_time_s": 580.04,
+    "vpr_total_runtime_s": 543.37
+   },
+   "design": "LU32PEEng",
+   "elapsed_s": 902.6,
+   "error": "",
+   "gating": true,
+   "key": "0933a06675f0c728f00b06becf081db0001fa8e8e322fe24ceec4a16a8796573",
+   "key12": "a7d7637a6a5c",
+   "leg": "Pprime",
+   "netlist": {
+    "abc_depth": 97,
+    "abc_exchange": "blif",
+    "adders": 13470,
+    "blif_sha256": "206e7ed27f2b4086b5a5159cac5b766dcdad87d77d37c3b484df39e3b1aa8ee2",
+    "depth": 97,
+    "ffs": 19668,
+    "luts": 69122,
+    "mults": 32,
+    "ram_slices": 5251
+   },
+   "odin3_build": "425c4c3f2bbc8911131a3d6919cc5c9d072839ec7c3bfeeb15448ea788af3adc",
+   "odin3_commit": "828c3f16a455a812ba5719ef15eb4c637f7e4bbd",
+   "packed": {
+    "device_height": 102,
+    "device_width": 102,
+    "num_clb": 7482,
+    "num_memories": 168,
+    "num_mult": 32
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 1129315,
+    "critical_path_delay_ns": 72.883,
+    "fmax_mhz": 13.720620720881413,
+    "min_chan_width": 102,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-19T05:16:45Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 40,
+    "frontend_wall_s": 0.98,
+    "max_vpr_mem_mib": 82,
+    "vpr_time_s": 2.91,
+    "vpr_total_runtime_s": 2.56
+   },
+   "design": "spree",
+   "elapsed_s": 4.6,
+   "error": "",
+   "gating": false,
+   "key": "b153272c8b2b34bcf84e01c4db11ccaa8013aeb4d57d2cb54d4a488126e7e95b",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 16,
+    "abc_exchange": null,
+    "adders": 62,
+    "blif_sha256": "e98283022cbd103cd316cb05ba28d387e180eee3c55c96375518b41f194cae16",
+    "depth": 16,
+    "ffs": 200,
+    "luts": 690,
+    "mults": 1,
+    "ram_slices": 128
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 14,
+    "device_width": 14,
+    "num_clb": 63,
+    "num_memories": 3,
+    "num_mult": 1
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 10399,
+    "critical_path_delay_ns": 10.9448,
+    "fmax_mhz": 91.36759008844382,
+    "min_chan_width": 58,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:52:56Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": null,
+   "arch": "k6_frac_N10_frac_chain_mem32K_40nm",
+   "cost": {
+    "frontend_peak_rss_mib": 124,
+    "frontend_wall_s": 24.25,
+    "max_vpr_mem_mib": 310,
+    "vpr_time_s": 54.83,
+    "vpr_total_runtime_s": 50.57
+   },
+   "design": "arm_core",
+   "elapsed_s": 79.7,
+   "error": "",
+   "gating": false,
+   "key": "6d33ea09b41c1135c714ce3fbf69ef111494dcebb3a94a62d370b4e15bec3a41",
+   "key12": "6baf6f3cfaf9",
+   "leg": "P",
+   "netlist": {
+    "abc_depth": 20,
+    "abc_exchange": null,
+    "adders": 384,
+    "blif_sha256": "a2459b436542440887842dc1af3826bc9f623c2065d8b891ece81ecdb9a155be",
+    "depth": 20,
+    "ffs": 2727,
+    "luts": 9407,
+    "mults": 0,
+    "ram_slices": 1192
+   },
+   "odin3_build": null,
+   "odin3_commit": null,
+   "packed": {
+    "device_height": 37,
+    "device_width": 37,
+    "num_clb": 853,
+    "num_memories": 24,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 148706,
+    "critical_path_delay_ns": 23.5371,
+    "fmax_mhz": 42.48611766105425,
+    "min_chan_width": 96,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-12T06:54:56Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  }
+ ],
+ "schema": 1
+}
