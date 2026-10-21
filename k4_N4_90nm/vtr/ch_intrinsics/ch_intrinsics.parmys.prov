@@ -1,0 +1,11 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k4_N4_90nm.xml
+arch_sha256=14eba3e28f98dbe9b56feadb6c8addc0f4288fd7591836042d610383c36006fa
+source=vtr_flow/benchmarks/verilog/ch_intrinsics.v
+source_sha256=5975e77f334b0a1e2e9491a608eda290c303d84bc362f584cbc8f32675d5190a
+tool=parmys
+mem_cap_mb=6144
+status=ok
+blif_sha256=8048fa20d767d66b16a2de17965a19aa1c1171d33a06287a50756011ea5bc518
+date=2026-10-20T15:35:41Z

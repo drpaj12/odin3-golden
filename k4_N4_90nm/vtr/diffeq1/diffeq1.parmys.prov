@@ -1,0 +1,10 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k4_N4_90nm.xml
+arch_sha256=14eba3e28f98dbe9b56feadb6c8addc0f4288fd7591836042d610383c36006fa
+source=vtr_flow/benchmarks/verilog/diffeq1.v
+source_sha256=e4be9b5b5c8d7f0981593071fe675c1475c5f26de136853758a543efab9f93e3
+tool=parmys
+mem_cap_mb=6144
+status=failed
+date=2026-10-20T15:35:42Z

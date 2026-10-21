@@ -1,0 +1,11 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k4_N4_90nm.xml
+arch_sha256=14eba3e28f98dbe9b56feadb6c8addc0f4288fd7591836042d610383c36006fa
+source=odin_ii/regression_test/benchmark/verilog/common/spram.v
+source_sha256=6ff732c16901fe926ee8d62d09b666021bdf52dc48d7b90ebd84833473e1d77b
+tool=parmys
+mem_cap_mb=6144
+status=ok
+blif_sha256=4f1af02ab82b48341d0198d83ec3d38d80250f7c40009fca90959ee1afd349a1
+date=2026-10-20T15:35:12Z

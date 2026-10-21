@@ -1,0 +1,11 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k4_N4_90nm.xml
+arch_sha256=14eba3e28f98dbe9b56feadb6c8addc0f4288fd7591836042d610383c36006fa
+source=vtr_flow/benchmarks/verilog/stereovision1.v
+source_sha256=aba1dc52d6b788f1dbc409771dbd8a3f089d486b4e6f5658bce923faceced6a2
+tool=parmys
+mem_cap_mb=6144
+status=ok
+blif_sha256=b889da1fcd74b7f421b7a759fab1c141398d0513d39323a6135dc24e2b3d4029
+date=2026-10-20T15:40:54Z

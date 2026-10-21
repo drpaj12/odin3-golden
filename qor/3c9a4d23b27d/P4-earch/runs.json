@@ -1,0 +1,836 @@
+{
+ "gate": {
+  "pass": false,
+  "violations": [
+   "gate: INCOMPLETE: no O leg in the table",
+   "gate: INCOMPLETE: no P leg in the table"
+  ]
+ },
+ "geomeans": [],
+ "header": {
+  "abc_sha12": "0d0d27670d8c",
+  "arch": "EArch",
+  "build12": "3e8f917db615",
+  "date_utc": "2026-10-21T15:28:49Z",
+  "host": "13th Gen Intel(R) Core(TM) i7-13700, 23.5 GiB",
+  "label": "P4-earch",
+  "legs": {
+   "Oprime": "c6b0b87fe3a6"
+  },
+  "odin3_commit12": "1cc53b820a37",
+  "vtr12": "3c9a4d23b27d"
+ },
+ "runs": [
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 36,
+    "frontend_wall_s": 0.12,
+    "max_vpr_mem_mib": 70,
+    "vpr_time_s": 1.38,
+    "vpr_total_runtime_s": 1.19
+   },
+   "design": "ch_intrinsics",
+   "elapsed_s": 2.6,
+   "error": "",
+   "gating": false,
+   "key": "e5ffe1625fa7ba4d93a423ebb27299a43e97ebcfec9f7f569964f529d9147336",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 0,
+    "blif_sha256": "5f82e4f03ca4ffdf503723c958174b6c67b72f88f339d9b488f2ca8b69b9d264",
+    "depth": 3,
+    "ffs": 82,
+    "luts": 96,
+    "mults": 0,
+    "ram_slices": 8
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 12,
+    "device_width": 12,
+    "num_clb": 65,
+    "num_memories": 1,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 1143,
+    "critical_path_delay_ns": 2.17226,
+    "fmax_mhz": 460.35005017815547,
+    "min_chan_width": 38,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:19:43Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 36,
+    "frontend_wall_s": 0.23,
+    "max_vpr_mem_mib": 67,
+    "vpr_time_s": 0.65,
+    "vpr_total_runtime_s": 0.5
+   },
+   "design": "stereovision3",
+   "elapsed_s": 1.6,
+   "error": "",
+   "gating": false,
+   "key": "7c49d4d243e5279df3923871658111f45e21062615bac308cfac2e8f856692a5",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 4,
+    "abc_exchange": null,
+    "adders": 31,
+    "blif_sha256": "e6700e0cabbbb5fe50b5db5929ee107edbbab181e15825911c47a1987177a1ff",
+    "depth": 2,
+    "ffs": 117,
+    "luts": 124,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 7,
+    "device_width": 7,
+    "num_clb": 14,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 541,
+    "critical_path_delay_ns": 2.51427,
+    "fmax_mhz": 397.72975853826364,
+    "min_chan_width": 26,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:19:46Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 36,
+    "frontend_wall_s": 0.09,
+    "max_vpr_mem_mib": 76,
+    "vpr_time_s": 5.84,
+    "vpr_total_runtime_s": 5.34
+   },
+   "design": "diffeq2",
+   "elapsed_s": 6.6,
+   "error": "",
+   "gating": false,
+   "key": "65f71973fe3a8fe85e77894eacdb88fee653a1752e26820a1a483319e290b06e",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 4,
+    "abc_exchange": null,
+    "adders": 136,
+    "blif_sha256": "fc5fdc3451a23afd749f8d39901f003ba3f45e67d85208520c0234532390080f",
+    "depth": 4,
+    "ffs": 96,
+    "luts": 196,
+    "mults": 5,
+    "ram_slices": 0
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 16,
+    "device_width": 16,
+    "num_clb": 22,
+    "num_memories": 0,
+    "num_mult": 5
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 7866,
+    "critical_path_delay_ns": 13.2791,
+    "fmax_mhz": 75.30630840945547,
+    "min_chan_width": 56,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:19:47Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 38,
+    "frontend_wall_s": 0.13,
+    "max_vpr_mem_mib": 77,
+    "vpr_time_s": 4.63,
+    "vpr_total_runtime_s": 4.13
+   },
+   "design": "diffeq1",
+   "elapsed_s": 5.7,
+   "error": "",
+   "gating": false,
+   "key": "34d447dbdbfd4a4726ac385fe78e7a8c6578e1e12c6fae4b4a42458dcb5d83c7",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 136,
+    "blif_sha256": "e4b65b939ead2de4a7aaada26e706c4e3766ea081a1c8d7fe9fe7a118b2fb16a",
+    "depth": 5,
+    "ffs": 193,
+    "luts": 294,
+    "mults": 5,
+    "ram_slices": 0
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 16,
+    "device_width": 16,
+    "num_clb": 28,
+    "num_memories": 0,
+    "num_mult": 5
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 9540,
+    "critical_path_delay_ns": 17.659,
+    "fmax_mhz": 56.62834815108444,
+    "min_chan_width": 60,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:19:54Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 37,
+    "frontend_wall_s": 0.2,
+    "max_vpr_mem_mib": 95,
+    "vpr_time_s": 6.9,
+    "vpr_total_runtime_s": 6.2
+   },
+   "design": "mkPktMerge",
+   "elapsed_s": 7.7,
+   "error": "",
+   "gating": false,
+   "key": "199a8541758f4ce34b00a8adeba2f0fc02da2c30543ecd91c88ffa0f47ce3a65",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 2,
+    "abc_exchange": null,
+    "adders": 51,
+    "blif_sha256": "a59ca3655622d278e3803a4afc84ba45a00eb207f84079949669b4f06d8e9ed6",
+    "depth": 2,
+    "ffs": 18,
+    "luts": 176,
+    "mults": 0,
+    "ram_slices": 459
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 28,
+    "device_width": 28,
+    "num_clb": 33,
+    "num_memories": 15,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 13548,
+    "critical_path_delay_ns": 4.3185,
+    "fmax_mhz": 231.5618849137432,
+    "min_chan_width": 36,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:20:00Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 40,
+    "frontend_wall_s": 0.75,
+    "max_vpr_mem_mib": 102,
+    "vpr_time_s": 12.129999999999999,
+    "vpr_total_runtime_s": 11.02
+   },
+   "design": "raygentop",
+   "elapsed_s": 13.9,
+   "error": "",
+   "gating": false,
+   "key": "3ff84ecad979e6961bc1ca6c1f0dadb773619cba1c1fedcce7ba96c0b3433f24",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 453,
+    "blif_sha256": "fa4d2091df53ae5105c6a006131a6e2ff58f1184c1c9b807c68b19e6031353dc",
+    "depth": 3,
+    "ffs": 946,
+    "luts": 1073,
+    "mults": 15,
+    "ram_slices": 21
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 19,
+    "device_width": 19,
+    "num_clb": 133,
+    "num_memories": 1,
+    "num_mult": 6
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 21717,
+    "critical_path_delay_ns": 4.8412,
+    "fmax_mhz": 206.56035693629678,
+    "min_chan_width": 86,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:20:08Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 41,
+    "frontend_wall_s": 1.16,
+    "max_vpr_mem_mib": 95,
+    "vpr_time_s": 6.3500000000000005,
+    "vpr_total_runtime_s": 5.57
+   },
+   "design": "sha",
+   "elapsed_s": 9.0,
+   "error": "",
+   "gating": false,
+   "key": "7fef6a99e985ba7d5b2c2224f65a5985eec2d53bf49e2703951047621928147d",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 320,
+    "blif_sha256": "aafa77ad1344a803c3a5cc0623422f94aab7ba86cbf3ed5c385ff6059c698ff5",
+    "depth": 3,
+    "ffs": 893,
+    "luts": 1210,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 15,
+    "device_width": 15,
+    "num_clb": 119,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 14219,
+    "critical_path_delay_ns": 9.81601,
+    "fmax_mhz": 101.87438684353418,
+    "min_chan_width": 78,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:20:22Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 39,
+    "frontend_wall_s": 1.15,
+    "max_vpr_mem_mib": 79,
+    "vpr_time_s": 2.85,
+    "vpr_total_runtime_s": 2.47
+   },
+   "design": "boundtop",
+   "elapsed_s": 5.2,
+   "error": "",
+   "gating": false,
+   "key": "4a04628db6f0928f2ec3bba82a3f2e9ef8ac4e58a043681dd6e07e49489b69e1",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 166,
+    "blif_sha256": "f1f4108347a4ad4091af8c3e0d4baad9aefd6a6f1cc3bd7bae97af05ab92b88d",
+    "depth": 3,
+    "ffs": 383,
+    "luts": 537,
+    "mults": 0,
+    "ram_slices": 32
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 15,
+    "device_width": 15,
+    "num_clb": 49,
+    "num_memories": 1,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 5813,
+    "critical_path_delay_ns": 3.20877,
+    "fmax_mhz": 311.64589546773374,
+    "min_chan_width": 38,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:20:31Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 42,
+    "frontend_wall_s": 1.41,
+    "max_vpr_mem_mib": 111,
+    "vpr_time_s": 12.09,
+    "vpr_total_runtime_s": 11.05
+   },
+   "design": "mkSMAdapter4B",
+   "elapsed_s": 15.0,
+   "error": "",
+   "gating": false,
+   "key": "2a4427a5a317a43cc8af5cbb4826632a2ae6bc6b8005da8eb9a9acc8d7c5166d",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 370,
+    "blif_sha256": "d5a1e1607f6f0820bc251a38fccc5bc023f89fe5151f1d27c80d0c2f47557fc9",
+    "depth": 5,
+    "ffs": 639,
+    "luts": 1096,
+    "mults": 0,
+    "ram_slices": 153
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 20,
+    "device_width": 20,
+    "num_clb": 157,
+    "num_memories": 5,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 17706,
+    "critical_path_delay_ns": 5.61333,
+    "fmax_mhz": 178.147374196778,
+    "min_chan_width": 74,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:20:37Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 44,
+    "frontend_wall_s": 3.04,
+    "max_vpr_mem_mib": 148,
+    "vpr_time_s": 38.71,
+    "vpr_total_runtime_s": 36.32
+   },
+   "design": "or1200",
+   "elapsed_s": 43.1,
+   "error": "",
+   "gating": false,
+   "key": "4855732cc9dfa67c9ebcdcbc41e2a8dea4a80ea115a8cb60ef469a24e931c228",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 8,
+    "abc_exchange": null,
+    "adders": 563,
+    "blif_sha256": "9fe197ada03991685a39de99c4e85f28d5bc477132c356fe45fbb543ecc8e5c2",
+    "depth": 8,
+    "ffs": 672,
+    "luts": 2466,
+    "mults": 1,
+    "ram_slices": 64
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 27,
+    "device_width": 27,
+    "num_clb": 222,
+    "num_memories": 2,
+    "num_mult": 1
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 48074,
+    "critical_path_delay_ns": 8.98924,
+    "fmax_mhz": 111.24410962439538,
+    "min_chan_width": 88,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:20:52Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 68,
+    "frontend_wall_s": 5.07,
+    "max_vpr_mem_mib": 279,
+    "vpr_time_s": 27.11,
+    "vpr_total_runtime_s": 23.06
+   },
+   "design": "stereovision0",
+   "elapsed_s": 33.4,
+   "error": "",
+   "gating": false,
+   "key": "81960651686018c34fa44425dcc7207f4764653223919cd4f9313a80d57e6abd",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 2741,
+    "blif_sha256": "f849f1f98eeb832dd5134458072f7c627c0846f854c6251d8834a8e21b2763e2",
+    "depth": 5,
+    "ffs": 11458,
+    "luts": 6826,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 33,
+    "device_width": 33,
+    "num_clb": 688,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 60586,
+    "critical_path_delay_ns": 4.05277,
+    "fmax_mhz": 246.74481897566358,
+    "min_chan_width": 66,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:21:35Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 76,
+    "frontend_wall_s": 7.69,
+    "max_vpr_mem_mib": 374,
+    "vpr_time_s": 72.21,
+    "vpr_total_runtime_s": 64.83
+   },
+   "design": "stereovision1",
+   "elapsed_s": 81.8,
+   "error": "",
+   "gating": false,
+   "key": "1d4f95d9634c48876a0a5876537438e5e6bf687f0d56cef971fa72e353e423b4",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 2482,
+    "blif_sha256": "97fc968b4d5a4d518768699b2badbcdac270df0db154a8c0956625252eb5ca8d",
+    "depth": 3,
+    "ffs": 10315,
+    "luts": 6355,
+    "mults": 152,
+    "ram_slices": 0
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 40,
+    "device_width": 40,
+    "num_clb": 778,
+    "num_memories": 0,
+    "num_mult": 44
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 116024,
+    "critical_path_delay_ns": 5.34058,
+    "fmax_mhz": 187.2455800680825,
+    "min_chan_width": 80,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:22:09Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 54,
+    "frontend_wall_s": 4.56,
+    "max_vpr_mem_mib": 377,
+    "vpr_time_s": 36.779999999999994,
+    "vpr_total_runtime_s": 34.05
+   },
+   "design": "mkDelayWorker32B",
+   "elapsed_s": 42.7,
+   "error": "",
+   "gating": false,
+   "key": "b803192914a5d2399fa298a5db43657b39511a05c79aa3521f44e6bdbbf9881a",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 833,
+    "blif_sha256": "b23232c189ba2f95e75a848192ac353b88f8394bbd1a27856dfecaad27a9e21e",
+    "depth": 5,
+    "ffs": 34,
+    "luts": 436,
+    "mults": 0,
+    "ram_slices": 1336
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 50,
+    "device_width": 50,
+    "num_clb": 470,
+    "num_memories": 43,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 18736,
+    "critical_path_delay_ns": 8.93512,
+    "fmax_mhz": 111.9179149244778,
+    "min_chan_width": 38,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:23:33Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 150,
+    "frontend_wall_s": 5.61,
+    "max_vpr_mem_mib": 1350,
+    "vpr_time_s": 211.1,
+    "vpr_total_runtime_s": 194.28
+   },
+   "design": "stereovision2",
+   "elapsed_s": 219.0,
+   "error": "",
+   "gating": false,
+   "key": "3c3c2d3a1ada760f573331cd69cf1870058070f5102e1048f5e32b8c4694f9a4",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 3,
+    "abc_exchange": null,
+    "adders": 12175,
+    "blif_sha256": "d8c3a3f55954495a085a43ed3a4fe4e772afd12ed19a6fd6acb0b839131e3532",
+    "depth": 3,
+    "ffs": 15573,
+    "luts": 8413,
+    "mults": 468,
+    "ram_slices": 0
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 82,
+    "device_width": 82,
+    "num_clb": 1870,
+    "num_memories": 0,
+    "num_mult": 192
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 373176,
+    "critical_path_delay_ns": 13.3379,
+    "fmax_mhz": 74.97432129495648,
+    "min_chan_width": 82,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:24:16Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  },
+  {
+   "abc_script_sha256": "0d0d27670d8c71d6ae62366f0588ef445008fa9e824dab79cb751d8f6edcab62",
+   "arch": "EArch",
+   "cost": {
+    "frontend_peak_rss_mib": 60,
+    "frontend_wall_s": 3.6,
+    "max_vpr_mem_mib": 222,
+    "vpr_time_s": 44.059999999999995,
+    "vpr_total_runtime_s": 40.87
+   },
+   "design": "blob_merge",
+   "elapsed_s": 49.0,
+   "error": "",
+   "gating": false,
+   "key": "c7761539d185a2f0367530be3e5ad1b0ce1e3e571e1558e5405cbc17c8694bcc",
+   "key12": "c6b0b87fe3a6",
+   "leg": "Oprime",
+   "netlist": {
+    "abc_depth": 5,
+    "abc_exchange": null,
+    "adders": 3815,
+    "blif_sha256": "c45b0502d810cec3c25771acc63f236cceac47afa5f3d20e7f84f5252a13caad",
+    "depth": 5,
+    "ffs": 575,
+    "luts": 6009,
+    "mults": 0,
+    "ram_slices": 0
+   },
+   "odin3_build": "3e8f917db615c68a82ab16eae7530687aaec8b61ebe56fc605d64a30db8c0ad0",
+   "odin3_commit": "1cc53b820a37389e5b7e9290f92b68ed53edfba0",
+   "packed": {
+    "device_height": 28,
+    "device_width": 28,
+    "num_clb": 486,
+    "num_memories": 0,
+    "num_mult": 0
+   },
+   "routed": {
+    "crit_path_routed_wirelength": 72524,
+    "critical_path_delay_ns": 14.0224,
+    "fmax_mhz": 71.31446827932452,
+    "min_chan_width": 86,
+    "vpr_status": "success"
+   },
+   "schema": 1,
+   "started": "2026-10-21T15:27:59Z",
+   "status": "ok",
+   "verdicts": {
+    "equiv": "skipped",
+    "fcheck": "skipped",
+    "rerun": "skipped"
+   },
+   "vtr_commit": "3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b"
+  }
+ ],
+ "schema": 1
+}

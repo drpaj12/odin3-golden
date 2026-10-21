@@ -1,0 +1,11 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/timing/k4_N4_90nm.xml
+arch_sha256=14eba3e28f98dbe9b56feadb6c8addc0f4288fd7591836042d610383c36006fa
+source=vtr_flow/benchmarks/verilog/raygentop.v
+source_sha256=e8bce25e93e4a940eff50f7f529ac2d21461e7263bb06c74da17a87989326ea3
+tool=parmys
+mem_cap_mb=6144
+status=ok
+blif_sha256=12f733f3b67b02f43bc82e38efda9031f5d4fef507d4dd329f3f766d4eedc325
+date=2026-10-20T15:38:16Z

@@ -1,0 +1,14 @@
+run-oracle: killed at the 6144 MB memory cap
+k4_N4_90nm/mkDelayWorker32B		--- error lines in parmys.out ---
+    11/103: $0\wsiS_errorSticky[0:0]
+    24/103: $0\wsiM_errorSticky[0:0]
+    42/103: $0\wmemi_errorSticky[0:0]
+Creating register for signal `\mkDelayWorker32B.\wmemi_errorSticky' using process `\mkDelayWorker32B.$proc$mkDelayWorker32B.v:3480$886'.
+Creating register for signal `\mkDelayWorker32B.\wsiM_errorSticky' using process `\mkDelayWorker32B.$proc$mkDelayWorker32B.v:3480$886'.
+Creating register for signal `\mkDelayWorker32B.\wsiS_errorSticky' using process `\mkDelayWorker32B.$proc$mkDelayWorker32B.v:3480$886'.
+  fsm extraction failed: at least two states are required.
+  fsm extraction failed: at least two states are required.
+Adding SRST signal on $procdff$3132 ($dff) from module mkDelayWorker32B (D = $procmux$2503_Y, Q = \wsiS_errorSticky, rval = 1'0).
+Adding EN signal on $auto$ff.cc:266:slice$7448 ($sdff) from module mkDelayWorker32B (D = 1'1, Q = \wsiS_errorSticky).
+Adding EN signal on $procdff$3119 ($dff) from module mkDelayWorker32B (D = 1'0, Q = \wsiM_errorSticky).
+Adding EN signal on $procdff$3101 ($dff) from module mkDelayWorker32B (D = 1'0, Q = \wmemi_errorSticky).

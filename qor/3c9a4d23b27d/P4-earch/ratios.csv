@@ -1,0 +1,1 @@
+arch,pair,design,n,luts,ffs,adders,mults,ram_slices,depth,num_clb,num_memories,num_mult,min_chan_width,critical_path_delay_ns,crit_path_routed_wirelength,frontend_wall_s,frontend_peak_rss_mib,vpr_time_s,max_vpr_mem_mib

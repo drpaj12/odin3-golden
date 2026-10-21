@@ -1,0 +1,11 @@
+vtr_commit=3c9a4d23b27d187bd67c79dc01a18ff1ffc21d9b
+vtr_dirty_files=0
+arch=vtr_flow/arch/COFFE_22nm/k6_frac_N10_4add_2chains_depop50_mem20K_22nm.xml
+arch_sha256=51b515c626dff0b2251f14c34e74083d1ea809901d5ca61975c4ab8696fd89b1
+source=vtr_flow/benchmarks/verilog/stereovision1.v
+source_sha256=aba1dc52d6b788f1dbc409771dbd8a3f089d486b4e6f5658bce923faceced6a2
+tool=parmys
+mem_cap_mb=6144
+status=ok
+blif_sha256=a7e9455c078f3b60b3a7116fbba402994685fd091d0b33843d3e7f9c4a18d472
+date=2026-10-20T15:41:51Z
